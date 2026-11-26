@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "director": "Anthony Russo, Joe Russo",
+        "genre": "Action",
+        "rating": 8.4
+    },
+    {
+        "id": 2,
+        "title": "Spider-Man: Brand New Day",
+        "year": 2026,
+        "director": "Destin Daniel Cretton",
+        "genre": "Action",
+        "rating": 7.9
+    },
+    {
+        "id": 3,
+        "title": "Avengers:Infinity War",
+        "year": 2018,
+        "director": "Anthony Russo, Joe Russo",
+        "genre": "Action",
+        "rating": 8.4
+    },
+    {
+        "id": 4,
+        "title": "Thor Ragnarok",
+        "year": 2017,
+        "director": "Taika Waititi",
+        "genre": "Action",
+        "rating": 7.9
+    },
+    {
+        "id": 5,
+        "title": "Interstellar",
+        "year": 2014,
+        "director": "Christopher Nolan",
+        "genre": "Sci-Fi",
+        "rating": 8.6
+    },
+    
+    {
+        "id": 6,
+        "title": "Iron Man",
+        "year": 2008,
+        "director": "Jon Favreau",
+        "genre": "Action",
+        "rating": 7.9
+    },
+    {
+        "id": 7,
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "director": "James Gunn",
+        "genre": "Action",
+        "rating": 8.0
+    },
+    {
+        "id": 8,
+        "title": "Doctor Strange",
+        "year": 2016,
+        "director": "Scott Derrickson",
+        "genre": "Action",
+        "rating": 7.5
+    },
+    {
+        "id": 9,
+        "title": "Black Panther",
+        "year": 2018,
+        "director": "Ryan Coogler",
+        "genre": "Action",
+        "rating": 7.3
+    },
+    {
+        "id": 10,
+        "title": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "director": "Anthony Russo, Joe Russo",
+        "genre": "Action",
+        "rating": 7.7
+    },
+    {
+        "id": 11,
+        "title": "Deadpool",
+        "year": 2016,
+        "director": "Tim Miller",
+        "genre": "Action",
+        "rating": 8.0
+    },
+    {
+        "id": 12,
+        "title": "Joker",
+        "year": 2019,
+        "director": "Todd Phillips",
+        "genre": "Drama",
+        "rating": 8.4
+    },
+    {
+        "id": 13,
+        "title": "The Batman",
+        "year": 2022,
+        "director": "Matt Reeves",
+        "genre": "Action",
+        "rating": 7.8
+    },
+    {
+        "id": 14,
+        "title": "Avatar",
+        "year": 2009,
+        "director": "James Cameron",
+        "genre": "Sci-Fi",
+        "rating": 7.9
+    },
+    {
+        "id": 15,
+        "title": "Avatar: The Way of Water",
+        "year": 2022,
+        "director": "James Cameron",
+        "genre": "Sci-Fi",
+        "rating": 7.5
+    },
+    {
+        "id": 16,
+        "title": "Inception",
+        "year": 2010,
+        "director": "Christopher Nolan",
+        "genre": "Sci-Fi",
+        "rating": 8.8
+    },
+    {
+        "id": 17,
+        "title": "The Dark Knight",
+        "year": 2008,
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "rating": 9.0
+    },
+    {
+        "id": 18,
+        "title": "Jurassic World",
+        "year": 2015,
+        "director": "Colin Trevorrow",
+        "genre": "Adventure",
+        "rating": 6.9
+    },
+    {
+        "id": 19,
+        "title": "The Matrix",
+        "year": 1999,
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "genre": "Sci-Fi",
+        "rating": 8.7
+    },
+    {
+        "id": 20,
+        "title": "Venom",
+        "year": 2018,
+        "director": "Ruben Fleischer",
+        "genre": "Action",
+        "rating": 6.6
+    }
+]
+  
