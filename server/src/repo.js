@@ -19,3 +19,13 @@ export function getFilmes() {
 export function save() {
     fs.writeFileSync(filePath, JSON.stringify(filmes, null, 4));
 }
+export function deleteFilme(id) {
+    const index = filmes.findIndex((filme) => filme.id === id);
+    if (index !== -1) {
+        filmes.splice(index, 1);
+        save();
+        return true;
+    }   
+
+    return false;
+}
