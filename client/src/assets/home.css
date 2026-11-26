@@ -1,0 +1,188 @@
+
+:root {
+    --blue: #2563eb;
+    --blue-light: #eff6ff;
+    --background: #f8fafc;
+    --white: #ffffff;
+    --text: #1e293b;
+    --muted: #64748b;
+    --border: #e2e8f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Cabeçalho */
+
+.header {
+    margin-bottom: 32px;
+}
+
+.subtitulo {
+    color: var(--blue);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.header p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+/* Grelha de filmes */
+
+.filmes {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+}
+
+/* Cartão */
+
+.filme {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px;
+    transition: border-color 0.2s ease;
+}
+
+.filme:hover {
+    border-color: var(--blue);
+}
+
+/* Informação superior */
+
+.filme-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filme-ano {
+    background: var(--blue-light);
+    color: var(--blue);
+    padding: 5px 9px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.filme-rating {
+    color: var(--blue);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* Conteúdo */
+
+.filme-genero {
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.filme h2 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 9px 0 18px;
+}
+
+/* Realizador */
+
+.filme-info {
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+}
+
+.filme-info p {
+    font-size: 12px;
+    color: var(--text);
+    line-height: 1.5;
+}
+
+.filme-info span {
+    display: block;
+    color: var(--muted);
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+/* Rodapé */
+
+.footer {
+    margin-top: 30px;
+    color: var(--muted);
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Loading e erro */
+
+.mensagem {
+    text-align: center;
+    margin-top: 60px;
+    color: var(--muted);
+}
+
+.erro {
+    color: #dc2626;
+}
+
+/* Responsividade */
+
+@media (max-width: 1100px) {
+    .filmes {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 800px) {
+    .filmes {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .container {
+        padding: 30px 24px;
+    }
+}
+
+@media (max-width: 500px) {
+    .filmes {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 24px 16px;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+}
