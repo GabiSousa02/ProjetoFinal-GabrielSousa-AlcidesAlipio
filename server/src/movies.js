@@ -37,4 +37,22 @@ router.post("/", (req, res) => {
     return res.status(201).json(movie)
 })
 
+router.delete("/:id", (req, res) => {
+    const id = parseInt(req.params.id);
+    const deleted = deleteFilme(id);
+
+    if (deleted)
+        res.status(200).json({
+            status: 200,
+            message: "Filme deletado com sucesso!"
+        });
+
+    return res.status(404).json({
+        status: 200,
+        error: "not_find",
+        message: "Filme não encontrado!"
+    });
+});
+
+
 export default router

@@ -11,6 +11,19 @@ export function getMovies() {
     return JSON.parse(fs.readFileSync(filePath, "utf-8"))
 }
 
+export function deleteMovie(id) {
+    const filmes = getMovies()
+
+    const index = filmes.findIndex((filme) => filme.id === id);
+    if (index !== -1) {
+        filmes.splice(index, 1);
+        save();
+        return true;
+    }
+
+    return false;
+}
+
 export function addMovie(movie) {
     const filmes = getMovies()
 
