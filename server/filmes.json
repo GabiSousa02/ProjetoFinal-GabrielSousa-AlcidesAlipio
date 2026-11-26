@@ -39,7 +39,6 @@
         "genre": "Sci-Fi",
         "rating": 8.6
     },
-    
     {
         "id": 6,
         "title": "Iron Man",
@@ -54,7 +53,7 @@
         "year": 2014,
         "director": "James Gunn",
         "genre": "Action",
-        "rating": 8.0
+        "rating": 8
     },
     {
         "id": 8,
@@ -86,7 +85,7 @@
         "year": 2016,
         "director": "Tim Miller",
         "genre": "Action",
-        "rating": 8.0
+        "rating": 8
     },
     {
         "id": 12,
@@ -134,7 +133,7 @@
         "year": 2008,
         "director": "Christopher Nolan",
         "genre": "Action",
-        "rating": 9.0
+        "rating": 9
     },
     {
         "id": 18,
@@ -159,6 +158,12 @@
         "director": "Ruben Fleischer",
         "genre": "Action",
         "rating": 6.6
+    },
+    {
+        "title": "Urso Branco",
+        "year": 2019,
+        "director": "Anthony Russo, Joe Russo",
+        "genre": "Action",
+        "rating": 8.4
     }
 ]
-  
